@@ -1093,6 +1093,8 @@ long load_fonts(Virtual *vwk, const char **ptr)
       puts_nl(buf);
    }
 #endif
+
+   return 1;
 }
 
 
